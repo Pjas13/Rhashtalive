@@ -1,0 +1,36 @@
+body {
+    background: url("/images/login-background.png") no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 10% auto;
+    width: 30%;
+}
+
+h1, .back, label {
+    color: #fff;
+}
+
+.back {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn-info {
+    width: 120px;
+    background-color: #454545;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #666;
+    border: none;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+}
